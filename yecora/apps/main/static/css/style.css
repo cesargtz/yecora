@@ -1,0 +1,102 @@
+@font-face {
+    font-family:'Avenir-light';
+    font-style: normal;
+    src:url('./fonts/Avenir-Light.eot');
+    src:local('Avenir-light');
+}
+@font-face {
+    font-family:'Avenir-Medium';
+    font-style:normal;
+    src:url('./fonts/Avenir-Medium.eot');
+    src:local('Avenir-Medium');
+}
+@font-face {
+    font-family:'Avenir-Black';
+    font-style:normal;
+    src:url('./fonts/Avenir-Black.eot');
+    src:local('Avenir-black');
+}
+@font-face {
+    font-family:'Avenir-Heavy';
+    font-style:normal;
+    src:url('./fonts/Avenir-Heavy.eot');
+    src:local('Avenir-Heavy');
+}
+
+#text-light{
+     font-family:Avenir-Light;
+}
+#text-black{
+     text-transform: lowercase;
+     font-family:Avenir-black;
+}
+#text-heavy{
+     font-family:Avenir-Heavy;
+}
+#text-black-only{
+    font-family:Avenir-black;
+}
+#text-black-icon{
+     text-transform: capitalize;
+     font-family:Avenir-Medium;
+     font-size: 1.3em;
+     font-weight: bold;
+}
+
+#text-medium{
+     font-family:Avenir-Medium;
+}
+
+#text-comercio{
+    font-size: 6em;
+    letter-spacing: -.02em;
+    margin-left: -1.5em;
+}
+#text-com-2{
+    font-family:Avenir-Medium;
+    font-size: 2em;
+}
+#text-prod-t{
+    font-family: Avenir-light;
+    font-size: 2em;
+}
+#text-prod-st{
+    font-family: Avenir-light;
+    font-size: 1.2em;
+    letter-spacing: .1em;}
+
+.title-yecora{
+    font-size: 10vw;
+    font-weight: 600;
+}
+
+.sub{
+    color:white;
+    font-size: 1.6vw;
+    letter-spacing: .4em;
+    margin-top:-7%;
+    margin-right: -8%;
+}
+
+.green{
+    color:#335643;
+}
+.green-light{
+    color:#369443;
+}
+
+.text-intro{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.text-p{
+    font-size: 1.4em;
+}
+.text-title2{
+    font-size: 2.7em;
+}
+
+.title-ps{
+    font-size: 3.4em;
+}
